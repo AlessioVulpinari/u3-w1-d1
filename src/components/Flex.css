@@ -1,0 +1,8 @@
+.flex {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+}
