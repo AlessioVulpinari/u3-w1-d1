@@ -1,0 +1,29 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: blueviolet;
+}
+nav div:first-of-type {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.list li:last-of-type {
+  margin-inline-end: 1rem;
+}
+
+nav a {
+  margin-inline-end: auto;
+}
+nav img {
+  width: 100px;
+}

@@ -4,11 +4,16 @@ import ButtonComponent from "./components/ButtonComponent"
 import ImageComponent from "./components/ImageComponent"
 import CardComponent from "./components/CardComponent"
 import "./components/Flex.css"
+import NavBarComponent from "./components/NavBarComponent"
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
+        <NavBarComponent
+          src='https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+          alt='Slacks'
+        />
         <img src={logo} className='App-logo' alt='logo' />
         <p>
           Edit <code>src/App.js</code> and save to reload.
